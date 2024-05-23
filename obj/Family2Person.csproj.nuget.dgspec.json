@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/Family2Person.csproj": {}
+  },
+  "projects": {
+    "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/Family2Person.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/Family2Person.csproj",
+        "projectName": "Family2Person",
+        "projectPath": "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/Family2Person.csproj",
+        "packagesPath": "/Users/nurhak.tuekek_ext/.nuget/packages/",
+        "outputPath": "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nurhak.tuekek_ext/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NMF-Basics": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            },
+            "NMF-Expressions": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            },
+            "NMF-Repository": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            },
+            "NMF-Synchronizations": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            },
+            "NMF-Transformations": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            },
+            "NMF-Utilities": {
+              "target": "Package",
+              "version": "[2.0.193, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nmeta:Namespace xmi:version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Uri="platform:/plugin/Persons/model/Persons.ecore" Prefix="Persons" Name="Persons" xmlns:xmi="http://www.omg.org/XMI" xmlns:nmeta="http://nmf.codeplex.com/nmeta/">
+  <Types xsi:type="nmeta:Class" Name="PersonRegister">
+    <References IsContainment="true" Opposite="#//Person/personsInverse" ReferenceType="nmeta:Class #//Person" IsOrdered="true" IsUnique="true" UpperBound="-1" Name="persons" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IsAbstract="true" IdentifierScope="Local" Identifier="#//Person/name" Name="Person">
+    <References Opposite="#//PersonRegister/persons" ReferenceType="nmeta:Class #//PersonRegister" IsOrdered="true" IsUnique="true" Name="personsInverse" />
+    <Attributes IsOrdered="true" IsUnique="true" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="name" />
+    <Attributes DefaultValue="0000-1-1" IsOrdered="true" IsUnique="true" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//DateTime" Name="birthday" />
+  </Types>
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Person" Name="Male" />
+  <Types xsi:type="nmeta:Class" BaseTypes="#//Person" Name="Female" />
+</nmeta:Namespace>

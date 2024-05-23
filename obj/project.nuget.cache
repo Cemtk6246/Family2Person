@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQnMxr8JDOdXb77ZaMH0a/Gz3y8yJ82Qt5DXounFhfskbo21cF0N+L8KTubksNjsD1VP6EZG5ptOhb5Lo/CEBg==",
+  "success": true,
+  "projectFilePath": "/Users/nurhak.tuekek_ext/VisualStudioProjects/someFolder/Family2Person/Family2Person.csproj",
+  "expectedPackageFiles": [
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-basics/2.0.193/nmf-basics.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-collections/2.0.193/nmf-collections.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-expressions/2.0.193/nmf-expressions.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-repository/2.0.193/nmf-repository.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-synchronizations/2.0.193/nmf-synchronizations.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-transformations/2.0.193/nmf-transformations.2.0.193.nupkg.sha512",
+    "/Users/nurhak.tuekek_ext/.nuget/packages/nmf-utilities/2.0.193/nmf-utilities.2.0.193.nupkg.sha512"
+  ],
+  "logs": []
+}

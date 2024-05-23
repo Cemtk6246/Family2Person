@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nmeta:Namespace xmi:version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Uri="platform:/plugin/Families/model/Families.ecore" Prefix="Families" Name="Families" xmlns:xmi="http://www.omg.org/XMI" xmlns:nmeta="http://nmf.codeplex.com/nmeta/">
+  <Types xsi:type="nmeta:Class" Name="FamilyRegister">
+    <References IsContainment="true" Opposite="#//Family/familiesInverse" ReferenceType="nmeta:Class #//Family" IsOrdered="true" IsUnique="true" UpperBound="-1" Name="families" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IdentifierScope="Local" Identifier="#//Family/name" Name="Family">
+    <References IsContainment="true" Opposite="#//FamilyMember/fatherInverse" ReferenceType="nmeta:Class #//FamilyMember" IsOrdered="true" IsUnique="true" Name="father" />
+    <References IsContainment="true" Opposite="#//FamilyMember/motherInverse" ReferenceType="nmeta:Class #//FamilyMember" IsOrdered="true" IsUnique="true" Name="mother" />
+    <References IsContainment="true" Opposite="#//FamilyMember/sonsInverse" ReferenceType="nmeta:Class #//FamilyMember" IsOrdered="true" IsUnique="true" UpperBound="-1" Name="sons" />
+    <References IsContainment="true" Opposite="#//FamilyMember/daughtersInverse" ReferenceType="nmeta:Class #//FamilyMember" IsOrdered="true" IsUnique="true" UpperBound="-1" Name="daughters" />
+    <References Opposite="#//FamilyRegister/families" ReferenceType="nmeta:Class #//FamilyRegister" IsOrdered="true" IsUnique="true" Name="familiesInverse" />
+    <Attributes IsOrdered="true" IsUnique="true" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="name" />
+  </Types>
+  <Types xsi:type="nmeta:Class" IdentifierScope="Local" Identifier="#//FamilyMember/name" Name="FamilyMember">
+    <References Opposite="#//Family/father" ReferenceType="nmeta:Class #//Family" IsOrdered="true" IsUnique="true" Name="fatherInverse" />
+    <References Opposite="#//Family/mother" ReferenceType="nmeta:Class #//Family" IsOrdered="true" IsUnique="true" Name="motherInverse" />
+    <References Opposite="#//Family/sons" ReferenceType="nmeta:Class #//Family" IsOrdered="true" IsUnique="true" Name="sonsInverse" />
+    <References Opposite="#//Family/daughters" ReferenceType="nmeta:Class #//Family" IsOrdered="true" IsUnique="true" Name="daughtersInverse" />
+    <Attributes IsOrdered="true" IsUnique="true" Type="nmeta:PrimitiveType http://nmf.codeplex.com/nmeta/#//String" Name="name" />
+  </Types>
+</nmeta:Namespace>
